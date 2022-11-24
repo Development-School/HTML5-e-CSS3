@@ -4,8 +4,16 @@ body {
   background: #CCCCCC;
 }
 
+#banner {
+  width: 100%;
+}
+
 p, h1 {
   text-align: center;
+}
+
+#missao {
+  font-size: 20px;
 }
 
 /*strong { */
