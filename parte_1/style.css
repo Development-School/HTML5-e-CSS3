@@ -1,7 +1,12 @@
 
 body {
   /* background-color: gray; */
+  /* background: #CCCCCC; */
+}
+
+.principal {
   background: #CCCCCC;
+  padding: 30px;
 }
 
 #banner {
@@ -19,4 +24,25 @@ p, h1 {
 /*strong { */
 em strong {
   color: red;
+}
+
+/* .itens { */
+ul.itens li {
+  font-style: italic;
+}
+
+.beneficios {
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
 }
