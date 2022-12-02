@@ -29,6 +29,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #c78C19;
+  text-decoration: underline;
+}
+
 .produtos {
   width: 940px;
   margin: 0 auto;
@@ -50,6 +55,18 @@ nav a {
   border-style: solid; */
   border: 2px solid #000000; /*É a mesma coisa que os e de cima*/
   border-radius: 10px;
+}
+
+.produtos li:hover {
+  border-color: #c78C19;
+}
+
+.produtos li:active { /*Pressionar mouse no elemento*/ 
+  border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
 }
 
 .produtos h2 {
