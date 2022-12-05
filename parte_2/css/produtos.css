@@ -84,3 +84,20 @@ nav a:hover {
   /* margin: 10px 0 0; */ 
   margin-top: 10px; /*Mesma coisa que o de cima*/
 }
+
+footer {
+  text-align: center;
+  /* background: #CCCCCC; */
+  /* background: url("img/bg.jpg"); */
+  background: url(../img/bg.jpg);
+  padding: 40px 0;
+}
+
+/* footer p { */
+.copyright {
+  /* color: #FFFFFF; */
+  /* opacity: 0.5; */
+  /* color: gray; */
+  color: #FFFFFF;
+  font-size: 13px;
+}
