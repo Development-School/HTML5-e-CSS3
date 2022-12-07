@@ -7,13 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato - Barbearia Alura</title>
   <link rel="stylesheet" href="css/reset.css">
-  <!-- <link rel="stylesheet" href="css/produtos.css"> -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
     <div class="caixa">
-      <h1><img src="img/logo.png" alt=""></h1>
+      <h1><img src="img/logo.png" alt="Logo da Barbearia Alura"></h1>
       <nav>
         <ul>
           <li><a href="home.html">Home</a></li>
@@ -27,28 +26,21 @@
   <main>
     <form action="">
       <label for="nome-sobrenome">Nome e Sobrenome:</label>
-      <input type="text" id="nome-sobrenome" class="input-padrao">
+      <input type="text" id="nome-sobrenome" class="input-padrao" required>
 
       <label for="email">E-mail:</label>
-      <input type="text" id="email" class="input-padrao">
+      <input type="email" id="email" class="input-padrao" required placeholder="seuemail@mail.com">
 
       <label for="telefone">Telefone</label>
-      <input type="text" id="telefone" class="input-padrao">
+      <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
 
       <label for="mensagem">Mensagem:</label>
-      <textarea name="" cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+      <textarea name="" cols="70" rows="10" id="mensagem" class="input-padrao"  required>
+        Digite sua mensagem aqui...
+      </textarea>
 
-      <div>
-        <p>Como prefere o nosso contato?</p>
-        
-        <!-- <label for="radio-email">E-mail</label>
-        <input type="radio" name="contato" value="email" id="radio-email">
-        
-        <label for="radio-telefone">Telefone</label>
-        <input type="radio" name="contato" value="telefone" id="radio-telefone">
-        
-        <label for="radio-whatsapp">WhatsApp</label>
-        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> -->
+      <fieldset>
+        <legend>Como prefere o nosso contato?</legend>
 
         <label for="radio-email">
           <input type="radio" name="contato" value="email" id="radio-email"> E-mail
@@ -59,12 +51,21 @@
         </label>
         
         <label for="radio-whatsapp">
-          <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> WhatsApp
+          <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp
         </label>
-      </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Qual horário prefere ser atendido?</legend>
+        <select name="" id="">
+          <option value="">Manhã</option>
+          <option value="">Tarde</option>
+          <option value="">Noite</option>
+        </select>
+      </fieldset>
 
       <label for="checkbox" class="checkbox">
-        <input type="checkbox" id="checkbox">Gostaria de receber nossas novidades por e-mail?
+        <input type="checkbox" id="checkbox" checked> Gostaria de receber nossas novidades por e-mail?
       </label>
 
       <input type="submit" value="Enviar Formulário">
