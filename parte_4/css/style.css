@@ -185,14 +185,15 @@ td, th {
   padding: 3em 0 0 0; /*By Lucas*/
 }
 
-.titulo-principal:before{
+/* .titulo-principal:before{ */
   /* content: "["; */
-  content: '[';
-}
+  /* content: '['; */
+/* } */
 
+/*
 .titulo-principal:after{
   content: "]";
-}
+}*/
 
 /*.titulo-principal:first-letter {
   font-weight: bold;
@@ -281,3 +282,25 @@ p:first-line {
   width: 560px;
   margin: 1em auto;
 }
+
+/**************************** Seletores: ********************************************/
+/* Seleciona os filhos direto, ou seja, todos os "p" ligados como filho diretamente */
+/* main > p { 
+  background: red;
+} */
+
+/* Seleciona o primeiro "p" logo após a imagem */
+/* img + p { 
+  background: blue;
+} */
+
+/* Seleciona todos os "p"s após a imagem  */
+/* img ~ p { 
+  background: yellow;
+} */
+
+/* Seleciona todos os "p"s exceto os que tiverem o id #missao */
+/* .principal p:not(#missao) { 
+  background: orange;
+} */
+/**************************** Seletores: ********************************************/
