@@ -297,7 +297,35 @@ p:first-line {
   margin: 1em auto;
   padding-top: 5%; /*By Lucas*/
 }
- 
+
+/**************************** Mobile Responsive: ********************************************/
+@media screen and (max-width: 480px) {
+
+  /* index.html */
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    width: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  nav {
+    position: static;
+  }
+  .lista-beneficios, .imagem-beneficios {
+    width: 100%;
+  }
+  
+  /* produtos.html */
+  .produtos {
+    width: auto;
+  }
+  .produtos li {
+    display: flow-root;
+    width: auto;
+  }
+}
+/**************************** Mobile Responsive: ********************************************/
+
 /**************************** Seletores: ********************************************/
 /* Seleciona os filhos direto, ou seja, todos os "p" ligados como filho diretamente */
 /* main > p { 
