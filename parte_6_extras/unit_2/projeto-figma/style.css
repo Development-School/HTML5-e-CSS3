@@ -6,6 +6,8 @@
 }
 
 body {
+    height: 100vh; /*100% do name="viewport"*/
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
@@ -18,3 +20,7 @@ body {
     color: #22D4FD;
 }
 
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
