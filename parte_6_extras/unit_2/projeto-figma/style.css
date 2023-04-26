@@ -1,3 +1,7 @@
+/*Importando fonts do Google Fonts*/
+/* @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
 
 /*Aplicar a todos os conteúdos (Reset)*/
 * {
@@ -23,4 +27,20 @@ body {
 .apresentacao {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.apresentacao-conteudo {
+    width: 615;
+}
+
+.apresentacao-conteudo-titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao-conteudo-paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
