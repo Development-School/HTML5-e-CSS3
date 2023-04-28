@@ -1,6 +1,7 @@
 /*Importando fonts do Google Fonts*/
 /* @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 
 /*Aplicar a todos os conteúdos (Reset)*/
@@ -42,5 +43,25 @@ body {
 
 .apresentacao-conteudo-paragrafo {
     font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao-conteudo-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao-conteudo-links-ancora {
+    background-color: #22D4FD;
+    /* width: 280px; */
+    width: 45%;
+    padding: 21.5px 0; /*Vertical/Horizontal*/
+    border-radius: 16px;
+    text-align: center;
+    /* font-size: 24px; */
+    font-size: x-large;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
 }
