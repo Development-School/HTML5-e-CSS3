@@ -29,11 +29,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10%;
+    /* margin: 10%; */
+    margin: 10% 15%;
 }
 
 .apresentacao-conteudo {
-    width: 615;
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao-conteudo-titulo {
