@@ -66,6 +66,9 @@ body {
 }
 
 .apresentacao-conteudo-links-ancora {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     /* background-color: #22D4FD; */
     /* width: 280px; */
     width: 378px;
@@ -82,4 +85,12 @@ body {
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid #22D4FD;
+}
+
+.apresentacao-conteudo-links-ancora:hover {
+    background-color: #272727;
+    font-size: 30px;
+    /* background-color: #E2E2E2; */
+    /* border: none; */
+    /* color: #22D4FD; */
 }
