@@ -18,15 +18,20 @@ body {
 }
 
 .cabecalho {
-
+    padding: 2% 0 0 15%;
 }
 
 .cabecalho-menu {
-
+    display: flex;
+    gap: 80px;
 }
 
 .cabecalho-menu>a {
     /* color: #000000; */
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
 }
 
 /* strong > span {
@@ -43,7 +48,8 @@ body {
     justify-content: space-between;
     /* margin: 10%; */
     /*margin: 10% 15%;*/ /* adiciona uma margem para centralizar os quadrados na tela*/
-    padding: 8% 15%;
+    /* padding: 8% 15%; */
+    padding: 5% 15%;
 }
 
 .apresentacao-conteudo {
