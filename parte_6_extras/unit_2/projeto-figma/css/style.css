@@ -157,3 +157,19 @@ body {
     font-size: var(--r24);
     font-weight: 400;
 }
+
+@media (max-width: 1200px) {
+/* @media (min-width: 480px) and (max-width: 800px) { */
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+    }
+}
