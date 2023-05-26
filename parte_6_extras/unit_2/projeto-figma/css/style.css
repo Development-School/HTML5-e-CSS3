@@ -17,6 +17,16 @@
 
     --fonte-primaria: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
+
+    /* Tratamento utilizando REM para Font-Size */
+    /* Valor base 1 REM = 16 pixels*/
+    /* font-size: calc((var(--base) / 16) * 100%); */
+    --r36: calc((36 / var(--base) * 1rem));
+    --r32: calc((32 / var(--base) * 1rem));
+    --r30: calc((30 / var(--base) * 1rem));
+    --r24: calc((24 / var(--base) * 1rem));
+    --r16: calc((16 / var(--base) * 1rem));
+    --base: 16;
 }
 
 /*Aplicar a todos os conteúdos (Reset)*/
@@ -75,12 +85,14 @@ body {
 }
 
 .apresentacao-conteudo-titulo {
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: var(--r36);
     font-family: var(--fonte-primaria);
 }
 
 .apresentacao-conteudo-paragrafo {
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: var(--r24);
     font-family: var(--fonte-secundaria);
 }
 
@@ -109,7 +121,8 @@ body {
     /* border-radius: 16px; */
     border-radius: 8px;
     text-align: center;
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: var(--r24);
     /* font-size: x-large; */
     font-weight: 600;
     text-decoration: none;
@@ -121,7 +134,8 @@ body {
 
 .apresentacao-conteudo-links-ancora:hover {
     background-color: var(--cor-hover);
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: var(--r30)
     /* background-color: #E2E2E2; */
     /* border: none; */
     /* color: #22D4FD; */
@@ -133,6 +147,7 @@ body {
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: var(--r24);
     font-weight: 400;
 }
