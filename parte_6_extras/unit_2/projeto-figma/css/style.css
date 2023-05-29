@@ -6,14 +6,14 @@
 
 /* Variáveis Globais CSS */
 :root {
-    /* --cor-primaria: #000000;
+    --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
-    --cor-hover: #272727; */
-    --cor-primaria: #2C3639;
+    --cor-hover: #272727;
+    /* --cor-primaria: #2C3639;
     --cor-secundaria: #DCD7C9;
     --cor-terciaria: #A27B5C;
-    --cor-hover: #3F4E4F;
+    --cor-hover: #3F4E4F; */
 
     --fonte-primaria: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
@@ -21,12 +21,12 @@
     /* Tratamento utilizando REM para Font-Size */
     /* Valor base 1 REM = 16 pixels*/
     /* font-size: calc((var(--base) / 16) * 100%); */
+    --base: 16;
     --r36: calc((36 / var(--base) * 1rem));
     --r32: calc((32 / var(--base) * 1rem));
     --r30: calc((30 / var(--base) * 1rem));
     --r24: calc((24 / var(--base) * 1rem));
     --r16: calc((16 / var(--base) * 1rem));
-    --base: 16;
 }
 
 /*Aplicar a todos os conteúdos (Reset)*/
@@ -171,5 +171,10 @@ body {
     .apresentacao {
         /* flex-direction: column; */
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
     }
 }
