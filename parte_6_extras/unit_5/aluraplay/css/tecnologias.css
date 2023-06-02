@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Jura", sans-serif;
+    /* margin: 0 230px; */
+    background: linear-gradient(180deg, #154580 0%, #041833 100%);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titulo {
+    /* position: absolute; */
+    /* top: 30px; */
+    /* left: 180px; */
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: underline 3px;
+    text-underline-offset: 25px;
+    margin: 10% 0 5% 0;
+}
+
+/* Desafio */
+.quadros__container {
+    /* width: 1650px; */
+    /* position: absolute; */
+    /* left: 176px; */
+    /* top: 150px; */
+    /* background: #525c63d8; */
+    /* border-radius: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.ativo {
+    display: flex;
+    order: -1;
+    flex: 1 0 100%;
+    /* margin-left: 15px; */
+}
+
+.quadros__item:nth-child(1),
+.quadros__item:nth-child(3) {
+    margin-top: 1px;
+}
+
+.obra-titulo {
+    border: 1px dotted white;
+    padding: 10px;
+    user-select: none;
+    text-align: center;
+    width: 275px;
+}
