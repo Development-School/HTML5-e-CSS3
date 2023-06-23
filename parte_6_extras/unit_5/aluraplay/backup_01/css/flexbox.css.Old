@@ -1,4 +1,3 @@
-/* CABEÇALHO */
 
 .cabecalho__container {
     display: flex;
@@ -25,6 +24,15 @@
     display: flex;
     justify-content: space-around;
     height: 100%;
+    flex-wrap: wrap;
+    /* align-content: center; */
+}
+
+/* Ocultar itens UL */
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
+    display: none;
 }
 
 .menu__lista li {
@@ -37,14 +45,6 @@
     gap: 5px;
 }
 
-.menu__lista:nth-child(2),
-.menu__lista:nth-child(3),
-.menu__lista:nth-child(4) {
-    display: none;
-}
-
-/* SEÇÃO SUPERIOR */
-
 .superior__secao__container {
     display: flex;
     align-items: center;
@@ -53,45 +53,27 @@
     gap: 15px;
 }
 
-/* RODAPÉ */
-
 .rodape__container {
     display: flex;
     /* flex-direction: column;
     flex-wrap: wrap; */
-    flex-flow: column wrap;
+    flex-flow: column wrap; /*Este substitui os 2 acima*/
 }
 
+/* Para tablet */
 @media (min-width: 834px) {
-
-    /* CABEÇALHO */
 
     .cabecalho__pesquisar__item {
         display: block;
     }
 
-    /* MENU LATERAL ADICIONADO NA ATIVIDADE EXTRA */
-
-    .menu__container {
-        left: 0;
-        height: auto;
-        width: 74px;
-        top: 80px;
-    }
-
-    .menu__lista {
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-top: 15px;
-        gap: 33px;
-    }
-
-    /* RODAPÉ */
-
     .rodape__container {
         justify-content: space-between;
     }
 
+    .menu__lista {
+        flex-wrap: nowrap;
+    }
 }
 
 /* Para desktop */
@@ -99,45 +81,25 @@
 @media(min-width: 1172px) {
 
     .menu__container {
+        position: absolute;
         overflow: scroll;
         width: 239px;
+        height: auto;
+        top: 0;
+        /* left: 0; */
+        /* bottom: 0%; */
+        /* width: 100%; */
     }
 
     .menu__lista:nth-child(2),
     .menu__lista:nth-child(3),
     .menu__lista:nth-child(4) {
         display: flex;
+        /* flex-wrap: wrap; */
     }
 
     .menu__lista {
         height: auto;
         padding: 20px 17px 20px 15px;
-        gap: 15px;
-    }
-
-    .menu__itens {
-        flex-direction: row;
-        gap: 15px;
-        align-items: center;
-    }
-
-    .menu__lista:nth-child(3) {
-        flex-direction: column-reverse;
-    }
-    
-    .jogos {
-        order: 3;
-    }
-
-    .filmes {
-        order: 2;
-    }
-
-    .premium {
-        order: 1;
-    }
-
-    .maispagina {
-        order: 4;
     }
 }
