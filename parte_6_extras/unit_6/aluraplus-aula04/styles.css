@@ -44,6 +44,11 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
@@ -56,7 +61,7 @@ body {
 
 .container__titulo {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 700; /*Atual: 6.6.2*/
 }
 
 .container__imagem {
@@ -147,9 +152,4 @@ body {
 
 .lista__link a:active {
     color: purple;
-}
-
-.container__botao:hover {
-    background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);
 }
