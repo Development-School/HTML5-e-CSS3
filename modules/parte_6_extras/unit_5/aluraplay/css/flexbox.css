@@ -64,7 +64,8 @@
 .videos__item {
     height: 303px;
     width: 280px;
-    flex-grow: 1; /*05. Desafio - flex-shrink o contrário do flex-grow*/
+    flex-grow: 1;
+    /*05. Desafio - flex-shrink o contrário do flex-grow*/
 }
 
 
@@ -167,7 +168,7 @@
     .menu__lista:nth-child(3) {
         flex-direction: column-reverse;
     }
-    
+
     .jogos {
         order: 3;
     }
@@ -192,7 +193,9 @@
     }
 
     .menu__lista>li>.menu__itens>span,
-    .premiumm, .inscricoes, .maispagina {
+    .premiumm,
+    .inscricoes,
+    .maispagina {
         display: none;
     }
 }
