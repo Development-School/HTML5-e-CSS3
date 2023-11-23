@@ -5,6 +5,7 @@
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #3c92fa;
+    /*3c92fa*/
     --vermelho-logo: #e82e45;
 }
 
@@ -62,7 +63,8 @@ body {
 
 .container__titulo {
     font-size: 28px;
-    font-weight: 700; /*Atual: 6.6.2*/
+    font-weight: 700;
+    /*Atual: 6.6.2*/
 }
 
 .container__imagem {
@@ -135,7 +137,7 @@ body {
     margin-top: 1em;
 }
 
-.lista__link a{
+.lista__link a {
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
@@ -143,7 +145,8 @@ body {
 
 .lista__link a:hover {
     /* color: var(--botao-azul); */
-    color: var(--vermelho-logo); /*By Lucas*/
+    color: var(--vermelho-logo);
+    /*By Lucas*/
 }
 
 .lista__link a:active {
