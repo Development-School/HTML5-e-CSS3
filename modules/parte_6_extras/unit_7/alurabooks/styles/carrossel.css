@@ -1,3 +1,4 @@
+/* 02. Carrossel com SwiperJS */
 .carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -22,6 +23,7 @@
     margin: .5em 0;
 }
 
+/* 06. Cards */
 .card__descrição {
     display: flex;
     justify-content: space-between;
@@ -71,6 +73,11 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+.descrição__imagem {
+    /*By Lucas*/
+    padding: 0 0 0.5em 0;
 }
 
 @media screen and (min-width: 1024px) {
