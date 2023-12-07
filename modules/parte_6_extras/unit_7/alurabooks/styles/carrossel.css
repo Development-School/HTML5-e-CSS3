@@ -80,6 +80,7 @@
     padding: 0 0 0.5em 0;
 }
 
+/* 12. Variações na página */
 @media screen and (min-width: 1024px) {
     .carrossel__titulo {
         font-size: 26px;

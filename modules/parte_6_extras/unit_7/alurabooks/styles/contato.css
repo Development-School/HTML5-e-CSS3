@@ -37,6 +37,7 @@
     padding-left: 2em;
 }
 
+/* 12. Variações na página */
 @media screen and (min-width: 1024px) {
     .contato {
         display: flex;

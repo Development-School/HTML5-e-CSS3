@@ -66,8 +66,10 @@
     display: none;
 }
 
+/* 07. Aumentando o header */
 .container__titulo {
     display: none;
+    /*Incluir o display block no @media screen 1024*/
 }
 
 .opções {
@@ -78,6 +80,7 @@
     display: none;
 }
 
+/* 07. Aumentando o header */
 @media screen and (min-width: 1024px) {
 
     .container__titulo,
